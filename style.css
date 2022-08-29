@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul, #myUL {
+    list-style-type: none;
+  }
+  
+  #myUL {
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    height: 100px;
+    width: 120px;
+    border-radius: 0 0 35px 0;
+  }
+  
+  .caret {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 37px;
+      border: 1px solid black;
+      box-shadow: inset 1px 1px 4em rgb(156, 81, 81), 0.1px 0.1px 0.3em black;
+      border-radius: 0 0 38% 0;
+      height: 100px;
+      width: 350px;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+.caret:hover{
+  background: black;
+  color: whitesmoke;
+}
+  
+  .caret::before {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: red;
+      color: black;
+      display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+    transform: rotate(90deg);  
+  }
+  .home{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: ;
+  }
+  .nested{
+      display: none;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      background: ;
+    
+  }
+  
+  .active {
+    display: block;
+  }
+  .social{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(90deg, rgb(161, 125, 125) 50%, rgb(245, 209, 209));
+      height: 370px;
+  }
+  .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 40% 0;
+    background: linear-gradient(180deg, rgb(104, 58, 58) 50%, rgb(177, 147, 147));
+    box-shadow:  0.1px 0.1px 0.3em black;
+  }
+  .li{
+    padding: 7px;
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: none;
+    border: none;
+  }
+  .h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    color: whitesmoke;
+    height: 70px;
+    width: 200px;
+    background: none;
+    border: none;
+
+  }
+  .items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px; 
+  }
